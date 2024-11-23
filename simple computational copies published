@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int sum;
+    int a=50525,b=40399;
+    sum=a+b;
+    printf("Total number of copies published:%d",sum);
+    return 0;
+}
