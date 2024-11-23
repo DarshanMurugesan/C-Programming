@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,area,perimeter;
+    printf("Enter length:",a);
+    scanf("%d",&a);
+    printf("\nEnter width:",b);
+    scanf("%d",&b);
+    area=a*b;
+    printf("\narea=%d",area);
+    perimeter=2*(a+b);
+    printf("\nperimeter=%d",perimeter);
+    return 0;
+}
