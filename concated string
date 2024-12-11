@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    char a[100];
+    char b[100];
+    int i=0;
+    int j=0;
+    printf("enter 1 string:");
+    scanf("%s",&a);
+    printf("\n Enter 2 String:");
+    scanf("%s",&b);
+    while(a[i]!='\0')
+    {
+        i++;
+    }
+    while(b[j]!='\0')
+    {
+        a[i]=b[j];
+        i++;
+        j++;
+    }
+    a[i]='\0';
+    printf("concatenated string:%s\n",a);
+    return 0;
+    
+}
+
