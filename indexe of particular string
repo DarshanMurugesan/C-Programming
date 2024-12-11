@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    char arr[100],let;
+    int i=0;
+    printf("Enter the character:");
+    scanf("%C",&let);
+    printf("\nEnter the string:");
+    scanf("%S",&arr);
+    while(arr[i]!=0)
+    {
+        if(arr[i]==let)
+        {
+            printf("\n The index value of character is %D",i);
+            break;
+        }
+        else
+        i++;
+    }
+    return 0;
+}
